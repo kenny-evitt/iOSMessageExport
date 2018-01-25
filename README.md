@@ -19,9 +19,9 @@ Basic steps:
     ```
     cd ~/Desktop/iOSBackup
 
-    git clone git@github.com:andars/iOSMessageExport.git
+    git clone git@github.com:kenny-evitt/iOSMessageExport.git
     ```
-3. I recommend copying your iTunes backup into your ~/Desktop/iOSBackup folder, just in case something bad happens (as I am not responsible for your misfortunes). Run backup.pl passing the backup directory. 
+3. I recommend copying your iTunes backup into your *~/Desktop/iOSBackup* folder, just in case something bad happens (as I am not responsible for your misfortunes). Run backup.pl passing the backup directory. 
     ```
     perl iOSMessageExport/backup.pl --directory_path 9b9f73759fad7b31e330dd26bf7f745acccf1869/
     ```
